@@ -253,7 +253,7 @@ footer{
 
 .join{
     float: left;
-    margin: 0px 197px 0px 30px;
+    margin: 0px 190px 0px 30px;
     text-align: left;
 }
 
@@ -262,7 +262,7 @@ footer p{
     font-family: 'Gabriola', sans-serif;
     font-weight: normal;
     font-size: 30px;
-    line-height: 1em;
+    line-height: 1.6em;
     color: rgba(241, 148, 109, 0.9);
     margin: 0px 0px 15px 0px;
 }
@@ -281,23 +281,38 @@ footer p{
 }
 
 .down{
-    float: right;
-    margin: 0px 416px 40px 0px;
+    float: left;
+    margin: 0px 0px 40px 0px;
 }
 
 .menu2{
     column-count: 2;
+    column-gap: 90px;
     padding: 0px;
     margin: 0;
     display: block;
 }
 
-
-
-
-
+.menu2 li a{
+    color: rgba(241, 148, 109, 0.9);
+    text-decoration: none;
+    font-weight: normal;
+    font-family: 'Gabriola', 'Marmelad', sans-serif;
+    font-size: 30px;
+    line-height: 1.6em;
+    margin: 0;
+}
 
 
 .logo-footer{
     clear: both;
+    opacity: 0.9;
+    float: right;
+    margin-right: 38px;
+}
+
+.logo-footer p{
+    float: left;
+    margin:  40px 0px 0px 10px;
+    line-height: 0.5em;
 }
